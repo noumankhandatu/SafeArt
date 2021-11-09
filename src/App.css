@@ -1,0 +1,48 @@
+.below__hunza {
+  display: flex;
+}
+.viewNet__Btn {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.Auction__Starts {
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 60px;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between;
+}
+.Auction__TextOne {
+  color: #000000;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 22px;
+}
+.Auction__TextTwo {
+  transition: color 0.1s ease-in-out;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.lightonoff {
+  display: inline-block;
+  padding: 2px;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  background-color: #000;
+  border-radius: 100%;
+}
+
+.spanCenter__button {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.CardMapped__BlackBtnFlexing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

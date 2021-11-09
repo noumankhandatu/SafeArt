@@ -1,0 +1,62 @@
+.logo {
+  width: 80px;
+  height: 80px;
+}
+.Header__SafeArtText {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+.header_flex {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+.logo_displace {
+  display: flex;
+}
+.header__Button {
+  height: 50px;
+  margin-top: 10px;
+  width: 180px;
+  color: white;
+  border-radius: 30px;
+  background-color: black;
+  border: none;
+}
+
+.headerTBtns {
+  height: 50px;
+  background-color: white;
+  width: 100px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: none;
+}
+.headerTBtnsMid {
+  height: 40px;
+  width: 100px;
+  margin: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: black;
+}
+@media (max-width: 770px) {
+  .header_flex {
+    display: flex !important;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    justify-items: center;
+  }
+  .combineBoxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,23 @@
+.SpanWholeBtn {
+  padding: 16px 24px;
+  background-color: white;
+  border-radius: 999px;
+  border: 2px solid black;
+}
+.App__spanText {
+  width: 100%;
+  font-weight: 600;
+  display: inherit;
+  font-size: 1.15rem;
+  transition: all 0.2s ease-in-out;
+  text-transform: capitalize;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.SpanWholeBtn:hover {
+  padding: 16px 24px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-radius: 999px;
+  border: 2px solid black;
+}
